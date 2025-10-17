@@ -65,19 +65,29 @@ INSERT INTO users (username, password, fullname, role) VALUES
 
 INSERT INTO songs (title, artist, album, genre, file_path, cover_image, uploaded_by)
 VALUES
+    ('7 Years', 'Lukas Graham', 'Blue Album', 'Pop', '7 Years.mp3', '7years.jpg', 1),
+    ('Buông Đôi Tay Nhau Ra', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Buông_Đôi_Tay_Nhau_Ra.mp3', 'buongdoi.jpg', 1),
+    ('Bánh Mì Không', 'Đạt G ft Du Uyên', 'Single', 'Pop', 'Bánh Mì Không.mp3', 'banhmikhong.jpg', 1),
+    ('Chúng Ta Của Hiện Tại', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Chúng_Ta_Của_Hiện_Tại.mp3', 'chungta.jpg', 1),
+    ('CHẠY NGAY ĐI', 'Sơn Tùng M-TP', 'Single', 'Pop', 'CHẠY_NGAY_ĐI.mp3', 'chayngaydi.jpg', 1),
+    ('Faded', 'Alan Walker', 'Different World', 'EDM', 'Faded.mp3', 'faded.jpg', 1),
+    ('Hãy Trao Cho Anh', 'Sơn Tùng M-TP ft Snoop Dogg', 'Single', 'Pop', 'Hãy Trao Cho Anh.mp3', 'haytraochoanh.jpg', 1),
+    ('Hãy Trao Cho Anh (Remix)', 'Sơn Tùng M-TP', 'Remix', 'EDM', 'Hãy_Trao_Cho_Anh.mp3', 'haytraochoanh_remix.jpg', 1),
+    ('Làm Người Luôn Yêu Em Mất Rồi', 'Nguyễn Minh Cường', 'Single', 'Ballad', 'Lam_nguoi_luon_yeu_em.mp3', 'lamnguoiyeuem.jpg', 1),
+    ('Let Her Go', 'Passenger', 'All the Little Lights', 'Folk', 'Let_Her_Go.mp3', 'lethergo.jpg', 1),
+    ('Làm Người Yêu Anh Nhé Baby', 'Ba Chú Bộ Đội', 'Single', 'Pop', 'Làm Người Yêu Anh Nhé Baby.mp3', 'lamnguoiyenhe.jpg', 1),
+    ('Lạc Trôi', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Lạc_Trôi.mp3', 'lactroi.jpg', 1),
+    ('Lạc Trôi 1', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Lạc_Trôi1.mp3', 'lactroi1.jpg', 1),
+    ('Muộn Rồi Mà Sao Còn', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Muộn_Rồi_Mà_Sao_Còn.mp3', 'muonroi.jpg', 1),
+    ('Nơi Này Có Anh', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Nơi Này Có Anh.mp3', 'noinaycoanh.jpg', 1),
+    ('Sau Cơn Mưa', 'Mr. Siro', 'Single', 'Ballad', 'Sau Cơn Mưa.mp3', 'sauconmua.jpg', 1),
+    ('Shape Of You', 'Ed Sheeran', 'Divide', 'Pop', 'Shape_Of_You.mp3', 'shapeofyou.jpg', 1),
+    ('Simple Love', 'Obito ft Seachains', 'Single', 'Pop', 'Simple Love.mp3', 'simplelove.jpg', 1),
+    ('Thiên Lý Ơi (Remix)', 'Jack', 'Remix', 'EDM', 'Thiên_Lý_Ơi_(Remix).mp3', 'thienlyoi.jpg', 1),
+    ('Trên Tình Bạn Dưới Tình Yêu', 'MIN', '50/50', 'Pop', 'Trên Tình Bạn Dưới Tình Yêu.mp3', 'trentinhban.jpg', 1),
+    ('Âm Thầm Bên Em', 'Sơn Tùng M-TP', 'Single', 'Pop', 'Âm_Thầm_Bên_Em.mp3', 'amthambenem.jpg', 1),
+    ('Địa Ngục Trần Gian', 'Hồ Quang Hiếu', 'Single', 'Ballad', 'Địa Ngục Trần Gian.mp3', 'dianguctrangian.jpg', 1);
 
-    ('Faded', 'Alan Walker', 'Different World', 'EDM', 'faded.mp3', 'faded.jpg', 1),
-
-
-    ('Trên Tình Bạn Dưới Tình Yêu', 'Ed Sheeran', 'Divide', 'Pop', 'Trên Tình Bạn Dưới Tình Yêu.mp3', 'shapeofyou.jpg', 1),
-    ('Bánh Mì Không', 'Ed Sheeran', 'Divide', 'Pop', 'Bánh Mì Không.mp3', 'shapeofyou.jpg', 1),
-    ('Hãy Trao Cho Anh', 'Ed Sheeran', 'Divide', 'Pop', 'Hãy Trao Cho Anh.mp3', 'shapeofyou.jpg', 1),
-    ('7 Years', 'Ed Sheeran', 'Divide', 'Pop', '7 Years.mp3', 'shapeofyou.jpg', 1),
-    ('Simple Love', 'Ed Sheeran', 'Divide', 'Pop', 'Simple Love.mp3', 'shapeofyou.jpg', 1),
-    ('Sau Cơn Mưa', 'Ed Sheeran', 'Divide', 'Pop', 'Sau Cơn Mưa.mp3', 'shapeofyou.jpg', 1),
-    ('Địa Ngục Trần Gian', 'Ed Sheeran', 'Divide', 'Pop', 'Địa Ngục Trần Gian.mp3', 'shapeofyou.jpg', 1),
-    ('Thiên Lý Ơi (Remix)', 'Ed Sheeran', 'Divide', 'Pop', 'Thiên Lý Ơi (Remix).mp3', 'shapeofyou.jpg', 1),
-    ('Nơi Này Có Anh', 'Ed Sheeran', 'Divide', 'Pop', 'Nơi Này Có Anh.mp3', 'shapeofyou.jpg', 1);
 
 
 INSERT INTO playlists (name, user_id) VALUES
